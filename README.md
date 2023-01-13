@@ -4,6 +4,10 @@
 
 ## How it works:
 
+## You can check it out in here:
+
+[To do list - demo](https://saneckaa.github.io/to-do-list-react/)
+
 ## Technologies used in this project:
 - HTML
 - CSS
