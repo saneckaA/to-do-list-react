@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# To do list - React
+
+## Description
+
+## How it works:
+
+## Technologies used in this project:
+- HTML
+- CSS
+- JavaScript (ES6+)
+- React
+- create-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
