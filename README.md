@@ -1,8 +1,8 @@
 # To do list - React
 
-## Description
+## Description:
 
-## How it works:
+In this project I've made an app that allows you to make your to-do list. Interactions will be added soon. 
 
 ## You can check it out in here:
 
