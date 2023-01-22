@@ -14,7 +14,7 @@ const Tasks = ({ tasks, hideDone }) => (
         <button className="task__button">
           {task.done ? "✓" : ""}
         </button>
-        <span className={`task__{task.done ? " task__item--done" : ""}`}>
+        <span className={task.done ? " task__item--done " : ""}>
           {task.content}
         </span>
         <button className="task__button task__button--special">
