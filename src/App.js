@@ -11,8 +11,6 @@ import Container from "./Container";
 function App() {
 
   const [tasks, setTasks] = useState([
-    { id: 1, content: "przejść na reacta", done: true },
-    { id: 2, content: "zjesc obiad", done: false },
   ]);
 
   const [hideDone, setHideDone] = useState(false);
@@ -78,7 +76,7 @@ function App() {
               tasks={tasks}
               hideDone={hideDone}
               toggleHideDone={toggleHideDone}
-              setAllDone={setAllDone} />
+              setAllDone={setAllDone} />  
           }
         />
       </Container>
