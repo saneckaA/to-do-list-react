@@ -7,6 +7,10 @@ The sign "✓" will appear and the whole task will be crossed out. If you want t
 You can also hide all done tasks by clicking the button "Ukryj zrobione" or remove a single task from your list by clicking the red bin button. 
 Interactions will be added soon. 
 
+## How it works:
+
+![](https://github.com/saneckaA/to-do-list-react/blob/main/Animation-todolist.gif?raw=true)
+
 ## You can check it out here:
 
 [To do list - demo](https://saneckaa.github.io/to-do-list-react/)
