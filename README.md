@@ -4,11 +4,11 @@
 
 In this project I've made an app that allows you to make your to-do list. After adding a new task you can mark it as done by clicking the green button. 
 The sign "✓" will appear and the whole task will be crossed out. If you want to mark all tasks as done click the button "Ukończ wszystkie". 
-You can also hide all done tasks by clicking the button "Ukryj zrobione" or remove a single task from your list by clicking the red bin button. 
+You can also hide all done tasks by clicking the button "Ukryj zrobione" or remove a single task from your list by clicking the red bin button. If you want to download example tasks click on the button "Pobierz przykładowe zadania".
 
 ## How it works:
 
-![](https://github.com/saneckaA/to-do-list-react/blob/main/Animation-todolist.gif?raw=true)
+![](https://github.com/saneckaA/to-do-list-react/blob/main/todo-list-animation.gif?raw=true)
 
 ## You can check it out here:
 
@@ -20,6 +20,8 @@ You can also hide all done tasks by clicking the button "Ukryj zrobione" or remo
 - JavaScript (ES6+)
 - React
 - create-react-app
+- custom hooks
+- redux-saga
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
