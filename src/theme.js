@@ -1,0 +1,16 @@
+export const theme = {
+    backgroundColor: "rgb(238, 238, 238)",
+    elementColor: "teal",
+    sectionColor: "white",
+    borderColor: "rgb(204, 204, 204)",
+    activeColor: "hsl(180, 100%, 35%)",
+    hoverColor: "hsl(180, 100%, 15%)",
+    disabledColor: "rgb(204 ,204, 204)",
+    doneButtonColor: "green",
+    doneButtonHover: "hsl(120, 100%, 15%)",
+    doneButtonActive: "hsl(120, 100%, 35%)",
+    removeButtonColor: "red",
+    removeButtonHover: "hsl(0, 100%, 40%)",
+    removeButtonActive: "hsl(0, 100%, 60%)",
+    insideButtonColor: "white",
+}
