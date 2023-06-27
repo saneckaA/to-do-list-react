@@ -1,10 +1,10 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const List = styled.ul`
     margin: 0;
     padding: 0;
-    padding-bottom: 20px;
-    padding-top: 20px;
+
 `;
 
 export const Item = styled.li`
@@ -25,40 +25,53 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-   ${({done}) => done && css`
+   ${({ done }) => done && css`
     text-decoration: line-through;
    `}
 `;
 
+export const StyledLink = styled(Link)`
+text-decoration: none;
+color: ${({ theme }) => theme.elementColor};
+
+   &:hover {
+    color: ${({ theme }) => theme.hoverColor}
+  }
+
+   &:active {
+   color: ${({ theme }) => theme.activeColor};
+  }
+`;
+
 export const Button = styled.button`
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.insideButtonColor};
     width: 30px;
     height: 30px;
     padding: 0;
     transition: 0.7s;
 
     ${({ toggleDone }) => toggleDone && css`
-       background: green;
+       background: ${({ theme }) => theme.doneButtonColor};
 
        &:hover {
-        background: hsl(120, 100%, 15%);
+        background: ${({ theme }) => theme.doneButtonHover};
        }
 
        &:active {
-        background: hsl(120, 100%, 35%);
+        background: ${({ theme }) => theme.doneButtonActive};
        }
     `}
 
-    ${({remove}) => remove && css`
-       background: red;
+    ${({ remove }) => remove && css`
+       background: ${({ theme }) => theme.removeButtonColor};
 
        &:hover {
-        background: hsl(0, 100%, 40%);
+        background: ${({ theme }) => theme.removeButtonHover};
     }
 
        &:active {
-        background: hsl(0, 100%, 60%);
+        background: ${({ theme }) => theme.removeButtonActive};
     }
     `}
 `;

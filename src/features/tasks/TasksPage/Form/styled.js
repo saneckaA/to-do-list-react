@@ -4,32 +4,25 @@ export const StyledForm = styled.form`
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 20px;
-    padding: 20px;
-    margin-bottom: 10px;
-
+  
     @media (max-width: 767px) {
         grid-template-columns: 1fr;
     }
 `;
 
-export const Input = styled.input`
-    border: 1px solid #ccc;
-    padding: 10px; 
-`;
-
 export const Button = styled.button`
     border: none;
-    background-color: teal;
-    color: white;
+    background-color: ${({theme}) => theme.elementColor};
+    color: ${({theme}) => theme.insideButtonColor};
     padding: 10px;
     transition: 1s;
 
     &:hover {
-        background-color: hsl(180, 100%, 15%);
+        background-color: ${({theme}) => theme.hoverColor};
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: hsl(180, 100%, 35%);
+        background-color: ${({theme}) => theme.activeColor};
     }
 `;

@@ -12,7 +12,7 @@ export const ButtonsContainer = styled.div`
 export const Button = styled.button`
     background: transparent;
     border: none;
-    color: teal;
+    color: ${({theme}) => theme.elementColor};
     margin: 0 0 0 20px;
     transition: color 0.5s;
 
@@ -22,14 +22,14 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: hsl(180, 100%, 15%);
+        color: ${({theme}) => theme.hoverColor};
     }
 
     &:active {
-        color: hsl(180, 100%, 35%);
+        color: ${({theme}) => theme.activeColor};
     }
 
     &:disabled {
-        color: #ccc;
+        color: ${({theme}) => theme.disabledColor};
     }
 `;
