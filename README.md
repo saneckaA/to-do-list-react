@@ -1,14 +1,11 @@
 # To do list - React
 
 ## Description:
-
-In this project I've made an app that allows you to make your to-do list. After adding a new task you can mark it as done by clicking the green button. 
-The sign "✓" will appear and the whole task will be crossed out. If you want to mark all tasks as done click the button "Ukończ wszystkie". 
-You can also hide all done tasks by clicking the button "Ukryj zrobione" or remove a single task from your list by clicking the red bin button. If you want to download example tasks click on the button "Pobierz przykładowe zadania".
+The application I created allows you to make your own to-do list. Sample tasks can be downloaded by clicking on the "Pobierz przykładowe zadania" button. Added tasks can be marked as completed by clicking the green button. The appearance of the "✓" sign and the task crossed out means that the task has been correctly added to the completed list. By clicking the "Ukończ wszystkie" button, all tasks in the list will be marked as completed, which can then be hidden with the "Ukryj ukończone" button. If you want to see the hidden tasks again, click the "Pokaż ukończone" button. Deleting a particular task is done by using the red button. The application also allows you to filter tasks in the "Filtruj zadania" field and view the details of the task after clicking on it. To be redirected to the information about the author, click on the "O autorze" field.
 
 ## How it works:
 
-![](https://github.com/saneckaA/to-do-list-react/blob/main/todo-list-animation.gif?raw=true)
+![](https://github.com/saneckaA/to-do-list-react/blob/main/todolist-animation.gif?raw=true)
 
 ## You can check it out here:
 
@@ -21,7 +18,10 @@ You can also hide all done tasks by clicking the button "Ukryj zrobione" or remo
 - React
 - create-react-app
 - custom hooks
-- redux-saga
+- React-redux
+- React-router
+- Redux-saga
+- styled-components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
