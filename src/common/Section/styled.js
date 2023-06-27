@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Sections = styled.section`
-    background: white;
-    box-shadow: 3px 3px 3px #ccc;
+    background: ${({ theme }) => theme.sectionColor};
+    box-shadow: 3px 3px 3px ${({ theme }) => theme.borderColor};
+    margin-bottom: 15px;
 `;
 
 export const Header = styled.header`
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid ${({ theme }) => theme.borderColor};
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -27,6 +28,6 @@ export const Title = styled.h2`
 `;
 
 export const Body = styled.div`
-    margin: auto;
+   padding: 20px 15px;
 `;
 
