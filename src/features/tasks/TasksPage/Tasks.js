@@ -5,6 +5,7 @@ import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 import ExampleTasksButton from "./ExampleTasksButton";
+import Search from "./Search";
 
 
 function Tasks() {
@@ -19,6 +20,10 @@ function Tasks() {
         body={<Form />}
         extraHeaderContent={<ExampleTasksButton />} 
       />
+      <Section
+        title="Wyszukiwarka"
+        body={<Search />}
+        />
       <Section
         title="Lista zadań"
         body={<TaskList />}

@@ -6,4 +6,5 @@ export const Description = styled.span`
    text-align: justify;
    text-indent: 20px;
    display: block;
+   padding: 15px;
 `;
